@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    color: #ff0000;
+    font-size: 24px;
+    margin-right: 10px;
+}
