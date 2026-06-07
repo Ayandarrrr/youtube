@@ -1,58 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FakeTube - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 </head>
-
-
 <body>
 
-    <div class="container">
-        <div class="header">
-            
-            <div class="left">
-                    <div class="logo">
-                    <i class="fab fa-youtube"></i>
-                    <span>YouTube</span>
-                </div>
-            </div>
+  <input type="checkbox" id="dark-toggle" class="dark-checkbox"/>
 
+  <header class="header">
+    <div class="header-left">
+      <label for="dark-toggle" class="icon-btn" title="Toggle Dark/Light Mode">
+        <span class="material-icons icon-dark">light_mode</span>
+        <span class="material-icons icon-light">dark_mode</span>
+      </label>
+      <span class="material-icons">mic</span>
+    </button>
+  </div>
+  <div class="header-right">
+    <button class="icon-btn"> <a href="#" class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube" class="logo-img"/>
+      <span class="logo-country">ZA</span>
+    </a>
+  </div>
 
   <div class="header-center">
-      <div class="search-bar">
-        <input type="text" placeholder="Search" class="search-input"/>
-        <button class="search-btn">
-          <span class="material-icons">search</span>
-        </button>
-      </div>
-
- <div class="header-right">
-      <button class="icon-btn">
-        <span class="material-icons">videocam</span>
-      </button>
-      <button class="icon-btn notif-btn">
-        <span class="material-icons">notifications</span>
-        <span class="badge">4</span>
-      </button>
-      <div class="avatar">A</div>
-    </div>
-  </header>
-
-      <button class="icon-btn mic-btn">
-        <span class="material-icons">mic</span>
+    <div class="search-bar">
+      <input type="text" placeholder="Search" class="search-input"/>
+      <button class="search-btn">
+        <span class="material-icons">search</span>
       </button>
     </div>
+    <button class="icon-btn mic-btn">
 
-        <div class="content">
-            <!-- Video cards will go here -->
-              
-        </div>
-    </div>
-
-    
-</body>
-</html>
+      <span class="material-icons">videocam</span>
+    </button>
+    <button class="icon-btn notif-btn">
+      <span class="material-icons">notifications</span>
+      <span class="badge">4</span>
+    </button>
+    <div class="avatar">A</div>
+  </div>
+</header>
