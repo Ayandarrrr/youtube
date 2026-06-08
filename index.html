@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>YouTube - Home</title>
+  <title>FakeTube - Home</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
@@ -18,327 +18,73 @@
         <span class="material-icons icon-dark">light_mode</span>
         <span class="material-icons icon-light">dark_mode</span>
       </label>
-      <span class="material-icons">mic</span>
-    </button>
-  </div>
-  <div class="header-right">
-    <button class="icon-btn"> <a href="#" class="logo">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube" class="logo-img"/>
-      <span class="logo-country">ZA</span>
-    </a>
-  </div>
-
-  <div class="header-center">
-    <div class="search-bar">
-      <input type="text" placeholder="Search" class="search-input"/>
-      <button class="search-btn">
-        <span class="material-icons">search</span>
+             <span class="material-icons">mic</span>
       </button>
     </div>
-    <button class="icon-btn mic-btn">
 
-      <span class="material-icons">videocam</span>
-    </button>
-    <button class="icon-btn notif-btn">
-      <span class="material-icons">notifications</span>
-      <span class="badge">4</span>
-    </button>
-    <div class="avatar">A</div>
-  </div>
-</header>
-
-
-<div class="layout">
-
-  <aside class="sidebar">
-    <nav class="sidebar-nav">
-      <a href="#" class="nav-item active">
-        <span class="material-icons">home</span>
-        <span>Home</span>
+    <div class="header-right">
+      <button class="icon-btn"> <a href="#" class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube" class="logo-img"/>
+        <span class="logo-country">ZA</span>
       </a>
-      <a href="#" class="nav-item">
-        <span class="material-icons">play_circle</span>
-        <span>Shorts</span>
-      </a>
-      <a href="#" class="nav-item">
-        <span class="material-icons">subscriptions</span>
-        <span>Subscriptions</span>
-      </a>
-    </nav>
+    </div>
 
+    <div class="header-center">
+      <div class="search-bar">
+        <input type="text" placeholder="Search" class="search-input"/>
+        <button class="search-btn">
+          <span class="material-icons">search</span>
+        </button>
+      </div>
+      <button class="icon-btn mic-btn">
 
-    <div class="sidebar-divider"></div>
+        <span class="material-icons">videocam</span>
+      </button>
+      <button class="icon-btn notif-btn">
+        <span class="material-icons">notifications</span>
+        <span class="badge">4</span>
+      </button>
+      <div class="avatar">A</div>
+    </div>
+  </header>
+
+  <div class="layout">
+
+    <aside class="sidebar">
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active">
+          <span class="material-icons">home</span>
+          <span>Home</span>
+        </a>
+        <a href="#" class="nav-item">
+          <span class="material-icons">play_circle</span>
+          <span>Shorts</span>
+        </a>
+        <a href="#" class="nav-item">
+          <span class="material-icons">subscriptions</span>
+          <span>Subscriptions</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-divider"></div>
 
       <div class="sidebar-section">
         <div class="section-title">Subscriptions <span class="material-icons small">chevron_right</span></div>
+        <div class="sidebar-divider"></div>
 
-       
         <a href="#" class="nav-item sub-item">
           <div class="sub-avatar">
-            <img src="resources/profile1.jpg" alt="Andiswa The Bomb" />
-            </div>
+            <img src="resources/profile1.jpg" alt="Andiswa The Bomb"
+                 onerror="this.parentElement.innerHTML='1'; this.parentElement.style.background='#e53935'; this.parentElement.style.color='white'; this.parentElement.style.display='flex'; this.parentElement.style.alignItems='center'; this.parentElement.style.justifyContent='center'; this.parentElement.style.fontWeight='bold';"/>
+          </div>
           <span>Andiswa The Bomb</span>
         </a>
-
-        <a href="#" class="nav-item sub-item">
-          <div class="sub-avatar">
-            <img src="resources/profile2.jpg" alt="ariki Anime" />
-            </div>
-          <span>ariki Anime</span>
-        </a>
-
-        <a href="#" class="nav-item sub-item">
-          <div class="sub-avatar">
-            <img src="resources/profile3.jpg" alt="bahle Sibiya " />
-            </div>
-          <span>bahle Sibiya </span>
-        </a>
-
-        <a href="#" class="nav-item sub-item">
-          <div class="sub-avatar">
-            <img src="resources/profile 4.jpg" alt="…UN-LTD - Topic" />
-            </div>
-          <span>…UN-LTD - Topic</span>
-        </a>
-
-        <a href="#" class="nav-item sub-item">
-          <div class="sub-avatar">
-            <img src="resources/profile5.jpg" alt="Caiah M." />
-            </div>
-          <span>Caiah M.</span>
-        </a>
-
-        <a href="#" class="nav-item sub-item">
-          <div class="sub-avatar">
-            <img src="resources/profile6.jpg" alt= "Kevinmathscience" />
-            </div>
-          <span>Kevinmathscience</span>
-        </a>
-
-        <a href="#" class="nav-item sub-item">  <div class="sub-avatar">
-            <img src="resources/profile7.jpg" alt= "Noluthando Ngidi " />
-            </div>
-          <span>Noluthando Ngidi </span>
-        </a>
-
-        <a href="#" class="nav-item sub-item">  <div class="sub-avatar">
-            <img src="resources/profile8.jpg" alt= "123tutors"/>
-            </div>
-          <span> 123tutors
-         </span>
-        </a>
-        
-
-   <a href="#" class="nav-item show-more">
-      <span class="material-icons">expand_more</span>
-     <span>Show more</span>
-     </a>
-    </div>
-
-    <div class="sidebar-divider"></div>
-
-    <div class="sidebar-section">
-      <div class="section-title">You <span class="material-icons small">chevron_right</span></div>
-      <a href="#" class="nav-item sub-item">
-        <span class="material-icons">account_circle</span>
-        <span>Your channel</span>
-      </a>
-      <a href="#" class="nav-item sub-item">
-        <span class="material-icons">history</span>
-        <span>History</span>
-      </a>
-      <a href="#" class="nav-item sub-item">
-        <span class="material-icons">playlist_play</span>
-        <span>Playlists</span>
-      </a>
-    </div>
-  </aside>
-
-  
-  <main class="main-content">
-
-    <div class="filter-bar">
-      <a href="#" class="chip active">All</a>
-      <a href="#" class="chip">Mixes</a>
-      <a href="#" class="chip">Music</a>
-      <a href="#" class="chip">Contemporary R&B</a>
-      <a href="#" class="chip">Contemporary Worship Music</a>
-      <a href="#" class="chip">Live</a>
-      <a href="#" class="chip">Indie Music</a>
-      <a href="#" class="chip">Recently uploaded</a>
-      <a href="#" class="chip">Watched</a>
-      <a href="#" class="chip">New to you</a>
-    </div>
-    <!-- Video Cards -->
-    <div class="video-grid">
-
-
-      <div class="video-card">
-        <div class="thumbnail">
-          <img src="resources/Screenshot 1st Video.png"
-               style="width:50px, height:100%; object-fit:cover;"/>
-          <span class="duration">1:17:49</span>
-        </div>
-        <div class="card-info">
-          <div class="channel-icon">
-            <img src="resources/BCWSprofile(1st video).jpg"
-                 style="width:50%%; height:100%; border-radius:50%; object-fit:cover;"/>
-          </div>
-          <div class="card-text">
-            <p class="card-title">Ep. 52: How to Survive a Girl's Trip | #BecauseWeSaidSoPod</p>
-            <p class="card-channel"> Because We Said So</p>
-            <p class="card-meta">41K views · 4  ago   Because We Said So</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="video-card">
-        <div class="thumbnail">
       
-          <img src="resources/Video Screenshot 2nd  .png"
-               style="width:50px, height:100%; object-fit:cover;"/>
-          <span class="duration">8:13</span>
+        <a href="#" class="nav-item sub-item">
+          <div class="sub-avatar">
+            <img src="resources/profile2.jpg" alt="ariki Anime"
+                 onerror="this.parentElement.innerHTML='1'; this.parentElement.style.background='#e53935'; this.parentElement.style.color='white'; this.parentElement.style.display='flex'; this.parentElement.style.alignItems='center'; this.parentElement.style.justifyContent='center'; this.parentElement.style.fontWeight='bold';"/>
+          </div>
+          <span>ariki Anime  </span>
+        </a>
       
-        </div>
-        <div class="card-info">
-      
-          
-          <div class="channel-icon">
-            <img src="resources/mahaila buchanan profile(2) .jpg"
-                 style="width:50%; height:100%; border-radius:50%; object-fit:cover;"/>
-          </div>
-      
-          <div class="card-text">
-            <p class="card-title">Ngiyabonga (Live)</p>
-            <p class="card-channel">Mahalia Buchanan</p>
-            <p class="card-meta">1.6M views · 6 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="video-grid">
-
-
-        <div class="video-card">
-          <div class="thumbnail">
-            <img src="resources/Screenshot 1st Video.png"
-                 style="width:50px, height:100%; object-fit:cover;"/>
-            <span class="duration">26:08</span>
-          </div>
-          <div class="card-info">
-            <div class="channel-icon">
-              <img src="resources/Cyan profile(3rd video).jpg"
-                   style="width:50%%; height:100%; border-radius:50%; object-fit:cover;"/>
-            </div>
-            <div class="card-text">
-              <p class="card-title">
-                Soft life, Hard emotions 🥀 | #boujeelifeofcyan</p>
-              <p class="card-channel"> Boujee Space</p>
-              <p class="card-meta">240K views · 11 days ago   </p>
-            </div>
-          </div>
-        </div> 
-
-        <div class="video-card">
-          <div class="thumbnail">
-            <img src="resources/Screenshot 1st Video.png"
-                 style="width:50px, height:100%; object-fit:cover;"/>
-            <span class="duration">3:37/span>
-          </div>
-          <div class="card-info">
-            <div class="channel-icon">
-              <img src="resources/Sienna profile(6th video).jpg"
-                   style="width:50%%; height:100%; border-radius:50%; object-fit:cover;"/>
-            </div>
-            <div class="card-text">
-              <p class="card-title">
-                SIENNA SPIRO - Die On This Hill (Audio)</p>
-              <p class="card-channel"> 
-              SIENNA SPIRO </p>
-              <p class="card-meta">28m views · 7 months ago   </p>
-            </div>
-          </div>
-        </div> 
-
-        <div class="video-card">
-          <div class="thumbnail">
-            <img src="resources/Screenshot 1st Video.png"
-                 style="width:50px, height:100%; object-fit:cover;"/>
-            <span class="duration">1:21:25</span>
-          </div>
-          <div class="card-info">
-            <div class="channel-icon">
-              <img src="resources/Cyan profile(3rd video).jpg"
-                   style="width:50%%; height:100%; border-radius:50%; object-fit:cover;"/>
-            </div>
-            <div class="card-text">
-              <p class="card-title">
-                FRIENDS LIKE THESE: Winner Takes All! (Extreme Stakes)</p>
-              <p class="card-channel"> As Majita</p>
-              <p class="card-meta">51K views · 6 days ago   </p>
-            </div>
-          </div>
-        </div> 
-
-        <div class="video-card">
-          <div class="thumbnail">
-            <img src="resources/profile 4.jpg"
-                 style="width:50px, height:100%; object-fit:cover;"/>
-            <span class="duration">07:02</span>
-          </div>
-          <div class="card-info">
-            <div class="channel-icon">
-              <img src="resources/profile 4.jpg"
-                   style="width:50%%; height:100%; border-radius:50%; object-fit:cover;"/>
-            </div>
-            <div class="card-text">
-              <p class="card-title">
-                Muya Mukhethwa (Live)</p>
-              <p class="card-channel"> ...UN-LTD - Topic</p>
-              <p class="card-meta">7.3K views ·2 months ago   </p>
-            </div>
-          </div>
-        </div> 
-
-        <div class="video-card">
-          <div class="thumbnail">
-            <img src="resources/Screenshot 1st Video.png"
-                 style="width:50px, height:100%; object-fit:cover;"/>
-            <span class="duration">26:08</span>
-          </div>
-          <div class="card-info">
-            <div class="channel-icon">
-              <img src="resources/Cyan profile(3rd video).jpg"
-                   style="width:50%%; height:100%; border-radius:50%; object-fit:cover;"/>
-            </div>
-            <div class="card-text">
-              <p class="card-title">
-               finding out that we're pregnant with our first baby *EMOTIONAL* </p>
-              <p class="card-channel"> Gogo &Mo</p>
-              <p class="card-meta">38K views · 2 days ago   </p>
-            </div>
-          </div>
-        </div> 
-
-        <div class="video-card">
-          <div class="thumbnail">
-            <img src="resources/Screenshot 1st Video.png"
-                 style="width:50px, height:100%; object-fit:cover;"/>
-            <span class="duration">41:13</span>
-          </div>
-          <div class="card-info">
-            <div class="channel-icon">
-              <img src="resources/Lerato profile (8th video).jpg"
-                   style="width:50%%; height:100%; border-radius:50%; object-fit:cover;"/>
-            </div>
-            <div class="card-text">
-              <p class="card-title">
-                A Lerato Nxumalo VLOG | Gworllllll I’ve been so busy ! 😭| Mom over | Travels</p>
-              <p class="card-channel"> LERATO NXUMALO</p>
-              <p class="card-meta">141K views · 13 days ago   </p>
-            </div>
-          </div>
-        </div> 
-  
-
-  
